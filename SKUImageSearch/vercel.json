@@ -1,0 +1,8 @@
+{
+    "builds": [
+      { "src": "SKUImageSearch/wsgi.py", "use": "@vercel/python" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "SKUImageSearch/wsgi.py" }
+    ]
+  }
